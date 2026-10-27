@@ -1,0 +1,9 @@
+bin/
+obj/
+*.user
+*.lock
+.vs/
+.vscode/
+*.db
+*.db-shm
+*.db-wal

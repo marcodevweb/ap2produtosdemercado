@@ -1,0 +1,21 @@
+meta {
+  name: 03 - Cadastrar
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseUrl}}/api/produtos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Café Torrado 500g",
+    "categoria": "Bebidas",
+    "marca": "Melitta",
+    "preco": 18.90,
+    "estoque": 25
+  }
+}
